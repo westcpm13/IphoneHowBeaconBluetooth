@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CADCEECE1F12FBA300B4C121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADCEECD1F12FBA300B4C121 /* AppDelegate.swift */; };
+		CADCEED01F12FBA300B4C121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADCEECF1F12FBA300B4C121 /* ViewController.swift */; };
+		CADCEED31F12FBA300B4C121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADCEED11F12FBA300B4C121 /* Main.storyboard */; };
+		CADCEED51F12FBA300B4C121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADCEED41F12FBA300B4C121 /* Assets.xcassets */; };
+		CADCEED81F12FBA300B4C121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADCEED61F12FBA300B4C121 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CADCEECA1F12FBA300B4C121 /* IphoneHowBeaconBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IphoneHowBeaconBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADCEECD1F12FBA300B4C121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CADCEECF1F12FBA300B4C121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CADCEED21F12FBA300B4C121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CADCEED41F12FBA300B4C121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CADCEED71F12FBA300B4C121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CADCEED91F12FBA300B4C121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CADCEEC71F12FBA300B4C121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CADCEEC11F12FBA300B4C121 = {
+			isa = PBXGroup;
+			children = (
+				CADCEECC1F12FBA300B4C121 /* IphoneHowBeaconBluetooth */,
+				CADCEECB1F12FBA300B4C121 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CADCEECB1F12FBA300B4C121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CADCEECA1F12FBA300B4C121 /* IphoneHowBeaconBluetooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CADCEECC1F12FBA300B4C121 /* IphoneHowBeaconBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				CADCEECD1F12FBA300B4C121 /* AppDelegate.swift */,
+				CADCEECF1F12FBA300B4C121 /* ViewController.swift */,
+				CADCEED11F12FBA300B4C121 /* Main.storyboard */,
+				CADCEED41F12FBA300B4C121 /* Assets.xcassets */,
+				CADCEED61F12FBA300B4C121 /* LaunchScreen.storyboard */,
+				CADCEED91F12FBA300B4C121 /* Info.plist */,
+			);
+			path = IphoneHowBeaconBluetooth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CADCEEC91F12FBA300B4C121 /* IphoneHowBeaconBluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADCEEDC1F12FBA300B4C121 /* Build configuration list for PBXNativeTarget "IphoneHowBeaconBluetooth" */;
+			buildPhases = (
+				CADCEEC61F12FBA300B4C121 /* Sources */,
+				CADCEEC71F12FBA300B4C121 /* Frameworks */,
+				CADCEEC81F12FBA300B4C121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IphoneHowBeaconBluetooth;
+			productName = IphoneHowBeaconBluetooth;
+			productReference = CADCEECA1F12FBA300B4C121 /* IphoneHowBeaconBluetooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CADCEEC21F12FBA300B4C121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pawel Trojan";
+				TargetAttributes = {
+					CADCEEC91F12FBA300B4C121 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 588L4B3HF6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CADCEEC51F12FBA300B4C121 /* Build configuration list for PBXProject "IphoneHowBeaconBluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CADCEEC11F12FBA300B4C121;
+			productRefGroup = CADCEECB1F12FBA300B4C121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CADCEEC91F12FBA300B4C121 /* IphoneHowBeaconBluetooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CADCEEC81F12FBA300B4C121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADCEED81F12FBA300B4C121 /* LaunchScreen.storyboard in Resources */,
+				CADCEED51F12FBA300B4C121 /* Assets.xcassets in Resources */,
+				CADCEED31F12FBA300B4C121 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CADCEEC61F12FBA300B4C121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADCEED01F12FBA300B4C121 /* ViewController.swift in Sources */,
+				CADCEECE1F12FBA300B4C121 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CADCEED11F12FBA300B4C121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADCEED21F12FBA300B4C121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CADCEED61F12FBA300B4C121 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADCEED71F12FBA300B4C121 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CADCEEDA1F12FBA300B4C121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CADCEEDB1F12FBA300B4C121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CADCEEDD1F12FBA300B4C121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 588L4B3HF6;
+				INFOPLIST_FILE = IphoneHowBeaconBluetooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IphoneHowBeaconBluetooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CADCEEDE1F12FBA300B4C121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 588L4B3HF6;
+				INFOPLIST_FILE = IphoneHowBeaconBluetooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IphoneHowBeaconBluetooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CADCEEC51F12FBA300B4C121 /* Build configuration list for PBXProject "IphoneHowBeaconBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADCEEDA1F12FBA300B4C121 /* Debug */,
+				CADCEEDB1F12FBA300B4C121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADCEEDC1F12FBA300B4C121 /* Build configuration list for PBXNativeTarget "IphoneHowBeaconBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADCEEDD1F12FBA300B4C121 /* Debug */,
+				CADCEEDE1F12FBA300B4C121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CADCEEC21F12FBA300B4C121 /* Project object */;
+}
