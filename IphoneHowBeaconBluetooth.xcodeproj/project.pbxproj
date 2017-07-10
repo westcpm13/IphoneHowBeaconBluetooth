@@ -12,6 +12,8 @@
 		CADCEED31F12FBA300B4C121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADCEED11F12FBA300B4C121 /* Main.storyboard */; };
 		CADCEED51F12FBA300B4C121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADCEED41F12FBA300B4C121 /* Assets.xcassets */; };
 		CADCEED81F12FBA300B4C121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADCEED61F12FBA300B4C121 /* LaunchScreen.storyboard */; };
+		CADCEEE11F12FF6900B4C121 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADCEEE01F12FF6900B4C121 /* CoreBluetooth.framework */; };
+		CADCEEE31F12FF6F00B4C121 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADCEEE21F12FF6F00B4C121 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CADCEED41F12FBA300B4C121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CADCEED71F12FBA300B4C121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CADCEED91F12FBA300B4C121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADCEEE01F12FF6900B4C121 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CADCEEE21F12FF6F00B4C121 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CADCEEE31F12FF6F00B4C121 /* CoreLocation.framework in Frameworks */,
+				CADCEEE11F12FF6900B4C121 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,7 @@
 			children = (
 				CADCEECC1F12FBA300B4C121 /* IphoneHowBeaconBluetooth */,
 				CADCEECB1F12FBA300B4C121 /* Products */,
+				CADCEEDF1F12FF6900B4C121 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +69,15 @@
 				CADCEED91F12FBA300B4C121 /* Info.plist */,
 			);
 			path = IphoneHowBeaconBluetooth;
+			sourceTree = "<group>";
+		};
+		CADCEEDF1F12FF6900B4C121 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CADCEEE21F12FF6F00B4C121 /* CoreLocation.framework */,
+				CADCEEE01F12FF6900B4C121 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +282,7 @@
 				DEVELOPMENT_TEAM = 588L4B3HF6;
 				INFOPLIST_FILE = IphoneHowBeaconBluetooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.IphoneHowBeaconBluetooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptrojan.IphoneHowBeaconBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -279,7 +295,7 @@
 				DEVELOPMENT_TEAM = 588L4B3HF6;
 				INFOPLIST_FILE = IphoneHowBeaconBluetooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.IphoneHowBeaconBluetooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptrojan.IphoneHowBeaconBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
