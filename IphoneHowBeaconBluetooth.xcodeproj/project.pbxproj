@@ -112,7 +112,7 @@
 				TargetAttributes = {
 					CADCEEC91F12FBA300B4C121 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 588L4B3HF6;
+						DevelopmentTeam = SRC62UGFX9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -279,7 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 588L4B3HF6;
+				DEVELOPMENT_TEAM = SRC62UGFX9;
 				INFOPLIST_FILE = IphoneHowBeaconBluetooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptrojan.IphoneHowBeaconBluetooth;
@@ -292,7 +292,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 588L4B3HF6;
+				DEVELOPMENT_TEAM = SRC62UGFX9;
 				INFOPLIST_FILE = IphoneHowBeaconBluetooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptrojan.IphoneHowBeaconBluetooth;
@@ -320,6 +320,7 @@
 				CADCEEDE1F12FBA300B4C121 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
