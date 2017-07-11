@@ -45,7 +45,7 @@ class ViewController: UIViewController {
           self.stateAdvertising = .search
           self.advertisingLabel.text = "Advertising..."
           sender.setTitle("Stop Advertising", for: .normal)
-          let dict = self.region?.peripheralData(withMeasuredPower: -60)
+          let dict = self.region?.peripheralData(withMeasuredPower: nil)
           self.peripheralManager?.startAdvertising(dict as? [String : Any])
         
         case .search:
