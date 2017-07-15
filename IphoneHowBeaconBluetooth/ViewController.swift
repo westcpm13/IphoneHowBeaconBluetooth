@@ -28,7 +28,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.region = CLBeaconRegion(proximityUUID: UUID(uuidString: self.sampleUUID)!, identifier: "com.ptrojan.IphoneHowBeaconBluetooth")
+        // self.region = CLBeaconRegion(proximityUUID: UUID(uuidString: self.sampleUUID)!, identifier: "com.ptrojan.IphoneHowBeaconBluetoothdd")
+        //self.region = CLBeaconRegion(proximityUUID: UUID(uuidString: self.sampleUUID)!, identifier: "com.ptrojan.IphoneHowBeaconBluetooth")
         self.peripheralManager = CBPeripheralManager(delegate: self, queue: DispatchQueue.main)
     }
     
